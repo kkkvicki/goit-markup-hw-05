@@ -675,12 +675,13 @@ img {
   width: 360px;
   position: relative;
 }
+.comment-box {
+  margin-bottom: 16px;
+}
 .modal-input-wrap {
   position: relative;
 }
-.modal-field .checkbox {
-  margin-bottom: 16px;
-}
+
 .modal-textarea {
   width: 100%;
   height: 120px;
