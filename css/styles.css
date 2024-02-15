@@ -678,7 +678,7 @@ img {
 .modal-input-wrap {
   position: relative;
 }
-.modal-checkbox-container {
+.modal-field .checkbox {
   margin-bottom: 16px;
 }
 .modal-textarea {
