@@ -500,6 +500,7 @@
               </li>
             </ul>
           </div>
+          <!-- FOOTER SUBSCRIBE -->
         </div>
         <div class="footer-subs-container">
           <p class="subs-text">Subscribe</p>
@@ -533,8 +534,8 @@
         </div>
       </div>
     </footer>
-    <!-- modal window -->
-    <div class="backdrop">
+    <!-- MODAL WINDOW -->
+    <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg class="modal-close-icon" width="8" height="8">
@@ -599,6 +600,26 @@
                 class="modal-textarea"
                 placeholder="Text input"
               ></textarea>
+            </div>
+            <div class="modal-checkbox-container">
+              <input
+                class="modal-checkbox visually-hidden"
+                type="checkbox"
+                name="user-privacy"
+                value="true"
+                id="user-privacy"
+              />
+              <label class="modal-label-checkbox" for="user-privacy">
+                <span class="span-click">
+                  <svg class="icon-click" width="10" height="8">
+                    <use
+                      href="./images/icons.svg#icon-check-mark-svgrepo-com"
+                    ></use>
+                  </svg>
+                </span>
+                I accept the terms and conditions of the
+                <a class="privacy-policy" href="#">Privacy Policy</a>
+              </label>
             </div>
           </div>
           <button class="form-btn" type="submit">Send</button>
